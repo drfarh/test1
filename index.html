@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Student Application form</title>
+</head>
+
+<body style="background-color:lightgreen;">
+<form>
+
+
+
+<h1 style="color:blue;">Name of the Organization</h1>
+
+ <p>The select element defines a drop-down list:</p>
+
+  <label for="universitys">Choose a university:</label>
+  <select id="universitys" name="universitys">
+    <option value="BU">BU</option>
+    <option value="UMAS">UMAS</option>
+    <option value="Tuffs Unv">Tutts Unv</option>
+  </select> 
+
+<!--..........................-->
+
+
+<p>Website</p>
+
+<input type="checkbox" id="Website" name="Website" value="Yes">
+  <label for="Website"> Yes </label><br>
+  <input type="checkbox" id="Website2" name="Website2" value="No">
+  <label for="Website2"> No</label><br>
+
+<!--..........................-->
+
+<p>Choose your etnicity:</p>
+
+
+  <input type="radio" id="White" name="fav_language" value="White">
+  <label for="White">Non-Hispanic</label><br>
+
+  <input type="radio" id="Hispanic" name="fav_language" value="Hispanic">
+  <label for="Hispanic">Hispanic</label><br>
+
+  <input type="radio" id="Asian" name="fav_language" value="Asian">
+  <label for="Asian">Asian</label>
+
+<!--..........................-->
+
+
+<p>Student information</p>
+
+<!--name, address,email-->
+
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+  <br><br>
+  
+<label for="email">email:</label><br>
+  <input type="text" id="email" name="email"><br><br>
+  
+<label for="phone">Phone Number:</label><br>
+  <input type="text" id="phone" name="phone"><br><br>
+  
+
+<p>Choose your Program:</p>
+
+  <input type="radio" id="Science" name="fav_language" value="Science">
+  <label for="Science">Science</label><br>
+  <input type="radio" id="Engineering" name="fav_language" value="Engineering">
+  <label for="Engineering">Engineering</label><br>
+  <input type="radio" id="Arts" name="fav_language" value="Arts">
+  <label for="Arts">Arts</label> 
+  <br><br>
+
+  <label for="vol">Volume (between 0 and 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+  <br><br>
+
+  <textarea name="message" rows="20" cols="50">Input your text here.</textarea>
+  <br><br>
+
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+<br><br>
+</form>
+
+
+</body>
+</html>
